@@ -1,0 +1,18 @@
+# Kodutöö 2
+# Python GUI
+# Kert Kalamets
+# 14.03.2022
+
+import turtle
+
+def kuusnurk():
+    aken = turtle.Screen()
+    aken.setup(300,300)
+    k1 = turtle.Turtle()
+    for q in range(6):
+        for w in range(3):
+            k1.fd(100)
+            k1.rt(120)
+        k1.rt(60)
+    turtle.exitonclick()
+kuusnurk()
