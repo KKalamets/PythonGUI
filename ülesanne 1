@@ -1,0 +1,23 @@
+# ülesanne 1
+# Python GUI
+# Kert Kalamets
+# 14.03.2022
+
+import turtle
+import random
+def taht():
+    aken = turtle.Screen()
+    aken.setup(300,300)
+    aken.title('ülesanne 1 - Kert Kalamets')
+    varv = ['red','yellow','blue','green']
+    kraad = 0
+    for q in range(8):
+        k1 = turtle.Turtle()
+        k1.color(random.choice(varv))
+        k1.speed(10)
+        k1.right(kraad)
+        k1.forward(100)
+        kraad += 45
+    turtle.exitonclick()
+taht()
+    
