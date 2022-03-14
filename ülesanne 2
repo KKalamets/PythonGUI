@@ -1,0 +1,22 @@
+# ülesanne 2
+# Python GUI
+# Kert Kalamets
+# 14.03.2022
+
+import turtle
+
+
+def taht():
+    aken = turtle.Screen()
+    aken.setup(300,300)
+    k1 = turtle.Turtle()
+    kulg = int(input('Kui pikk on kolmnurga külg: '))
+    for i in range(5):
+        k1.fd(100)
+        k1.rt(144)
+    for q in range(3):
+        k1.color('red')
+        k1.fd(kulg)
+        k1.lt(120)
+    turtle.exitonclick()
+taht()
